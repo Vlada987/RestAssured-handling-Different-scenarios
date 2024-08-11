@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="AirplaneDDT">
+  <test name="Test_DifferentScenario_Creating_Airline">
+    <classes>
+      <class name="tests.TestClass">
+      <methods>
+         <include name="test00"/> 
+     </methods>
+     </class>
+    </classes>
+  </test> <!-- Test_DifferentScenario_Creating_Airline -->
+</suite> <!-- AirplaneDDT --> 
+

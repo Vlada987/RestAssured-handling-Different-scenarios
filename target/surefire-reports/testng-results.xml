@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-08-09T11:16:23 CEST" name="AirplaneDDT" finished-at="2024-08-09T11:16:41 CEST" duration-ms="17747">
+    <groups>
+    </groups>
+    <test started-at="2024-08-09T11:16:23 CEST" name="Test_DifferentScenario_Creating_Airline" finished-at="2024-08-09T11:16:41 CEST" duration-ms="17747">
+      <class name="tests.TestClass">
+        <test-method is-config="true" signature="setExtent()[pri:0, instance:tests.TestClass@3d51f06e]" started-at="2024-08-09T11:16:22 CEST" name="setExtent" finished-at="2024-08-09T11:16:23 CEST" duration-ms="1118" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setExtent -->
+        <test-method signature="test00(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.TestClass@3d51f06e]" started-at="2024-08-09T11:16:28 CEST" name="test00" data-provider="scenarios" finished-at="2024-08-09T11:16:39 CEST" duration-ms="10398" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[create with valid payload]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[200]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[no_data]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test00 -->
+        <test-method is-config="true" signature="handleTestMethodName(java.lang.reflect.Method)[pri:0, instance:tests.TestClass@3d51f06e]" started-at="2024-08-09T11:16:28 CEST" name="handleTestMethodName" finished-at="2024-08-09T11:16:28 CEST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.TestClass.test00(java.lang.String,java.lang.String,java.lang.String) throws com.fasterxml.jackson.core.JsonProcessingException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- handleTestMethodName -->
+        <test-method is-config="true" signature="setTest()[pri:0, instance:tests.TestClass@3d51f06e]" started-at="2024-08-09T11:16:28 CEST" name="setTest" finished-at="2024-08-09T11:16:28 CEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setTest -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.TestClass@3d51f06e]" started-at="2024-08-09T11:16:39 CEST" name="tearDown" finished-at="2024-08-09T11:16:39 CEST" duration-ms="21" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test00 status=SUCCESS method=TestClass.test00(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.TestClass@3d51f06e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="test00(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.TestClass@3d51f06e]" started-at="2024-08-09T11:16:39 CEST" name="test00" data-provider="scenarios" finished-at="2024-08-09T11:16:40 CEST" duration-ms="1665" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[create with empty body]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[400]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[valid airline data must submit.]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test00 -->
+        <test-method is-config="true" signature="setTest()[pri:0, instance:tests.TestClass@3d51f06e]" started-at="2024-08-09T11:16:39 CEST" name="setTest" finished-at="2024-08-09T11:16:39 CEST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setTest -->
+        <test-method is-config="true" signature="handleTestMethodName(java.lang.reflect.Method)[pri:0, instance:tests.TestClass@3d51f06e]" started-at="2024-08-09T11:16:39 CEST" name="handleTestMethodName" finished-at="2024-08-09T11:16:39 CEST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.TestClass.test00(java.lang.String,java.lang.String,java.lang.String) throws com.fasterxml.jackson.core.JsonProcessingException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- handleTestMethodName -->
+        <test-method is-config="true" signature="handleTestMethodName(java.lang.reflect.Method)[pri:0, instance:tests.TestClass@3d51f06e]" started-at="2024-08-09T11:16:40 CEST" name="handleTestMethodName" finished-at="2024-08-09T11:16:40 CEST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void tests.TestClass.test00(java.lang.String,java.lang.String,java.lang.String) throws com.fasterxml.jackson.core.JsonProcessingException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- handleTestMethodName -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.TestClass@3d51f06e]" started-at="2024-08-09T11:16:40 CEST" name="tearDown" finished-at="2024-08-09T11:16:40 CEST" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test00 status=SUCCESS method=TestClass.test00(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.TestClass@3d51f06e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setTest()[pri:0, instance:tests.TestClass@3d51f06e]" started-at="2024-08-09T11:16:40 CEST" name="setTest" finished-at="2024-08-09T11:16:40 CEST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setTest -->
+        <test-method signature="test00(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.TestClass@3d51f06e]" started-at="2024-08-09T11:16:40 CEST" name="test00" data-provider="scenarios" finished-at="2024-08-09T11:16:41 CEST" duration-ms="419" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[create without name]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[400]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[error in saving data]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test00 -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:tests.TestClass@3d51f06e]" started-at="2024-08-09T11:16:41 CEST" name="tearDown" finished-at="2024-08-09T11:16:41 CEST" duration-ms="4" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=test00 status=SUCCESS method=TestClass.test00(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.TestClass@3d51f06e] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="endReport()[pri:0, instance:tests.TestClass@3d51f06e]" started-at="2024-08-09T11:16:41 CEST" name="endReport" finished-at="2024-08-09T11:16:41 CEST" duration-ms="514" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endReport -->
+      </class> <!-- tests.TestClass -->
+    </test> <!-- Test_DifferentScenario_Creating_Airline -->
+  </suite> <!-- AirplaneDDT -->
+</testng-results>
